@@ -1,0 +1,136 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #09090A;
+  color: white;
+
+  height: 100vh;
+
+
+
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 48px;
+
+  position: fixed;
+  width: 100vw;
+  background-color: #09090A;
+
+
+}
+
+
+header button{
+  background: none;
+  border: 1px solid #8B5CF6;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+i {
+  display: flex;
+  align-items: center;
+}
+
+header button:hover{
+  background-color: #8B5CF6;
+  color: #09090A;
+}
+
+header #plus2:hover{
+  display: block;
+}
+
+
+.days{
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+
+}
+
+.days input{
+  appearance: none;
+  background-color: #18181B;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272A;
+  border-radius: 8px;
+}
+
+.days input:checked{
+  background-color: #8B5CF6;
+  border: 2px solid #A78BFA;
+}
+
+.day {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day div{
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 125%;
+  color: #A1A1AA;
+}
+
+.habit{
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.habits {
+  display:  flex;
+  flex-direction: column;
+  margin-top: 45px;
+  gap: 24px;
+}
+
+form {
+
+  display: flex ;
+
+  padding: 182px 48px 48px;
+  width: fit-content;
+
+}
+
+
+@media (max-width: 570px){
+
+  button div{
+    display: none;
+
+  }
+
+}
