@@ -13,7 +13,7 @@ function add() {
   const dayExists = nlwSetup.dayExists(today)
   
   if (dayExists === true) {
-    alert("Day already exists!")
+    alert("Day already exists! ❌")
     console.log("Day already exists!")
 
   } else {
